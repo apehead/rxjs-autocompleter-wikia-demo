@@ -1,0 +1,39 @@
+{
+  "name": "rxjs-autocompleter-wikia-demo",
+  "version": "1.0.0",
+  "description": "A RxJS sample project with an autocompleter",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --progress --colors build",
+    "lint": "jshint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "RxJS"
+  ],
+  "author": "Alexander Curiel <alexander.curiel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "private": true,
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "jscs": "^2.6.0",
+    "jshint": "^2.9.1-rc1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.5",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "rx": "^4.0.7"
+  }
+}

@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --progress --colors build",
-    "lint": "jshint . --ext .js"
+    "dev": "webpack-dev-server --progress --colors build"
   },
   "repository": {
     "type": "git",

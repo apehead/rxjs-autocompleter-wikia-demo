@@ -1,7 +1,7 @@
 {
   "name": "rxjs-autocompleter-wikia-demo",
   "version": "1.0.0",
-  "description": "A RxJS sample project with an autocompleter",
+  "description": "A RxJS sample project with an autocompleter search using MediaWiki API to get Wikipedia suggestions",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -9,17 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:apehead/rxjs-autocompleter-wikia-demo.git"
   },
   "keywords": [
-    "RxJS"
+    "RxJS",
+    "reactive",
+    "webpack"
   ],
   "author": "Alexander Curiel <alexander.curiel@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/apehead/rxjs-autocompleter-wikia-demo/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Reactive-Extensions/RxJS",
   "private": true,
   "devDependencies": {
     "css-loader": "^0.23.0",
